@@ -4,7 +4,11 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  color: rgb(22, 22, 22);
+  color: rgb(33, 37, 41);
+  font-size: 30px;
+}
+main {
+  display: flex;
 }
 ul {
   list-style: none;
@@ -18,7 +22,7 @@ a {
 .header {
   display: flex;
   flex-direction: row;
-  background-color: #0560c7;
+  background-color: rgb(94, 129, 209);
   justify-content: space-between;
   height: 100px;
   margin: 0;
@@ -27,7 +31,8 @@ a {
 }
 .title-shoplist {
   display: flex;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .navigation-bar {
@@ -39,4 +44,13 @@ a {
 .navigation__item {
   display: inline;
   padding: 6px;
+}
+.main-content__top-list {
+  background-color: rgb(248, 117, 0);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px;
+  align-items: center;
+  height: 50px;
 }
