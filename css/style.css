@@ -1,0 +1,42 @@
+* {
+  box-sizing: content-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(22, 22, 22);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #0560c7;
+  justify-content: space-between;
+  height: 100px;
+  margin: 0;
+  align-items: center;
+  padding: 20px;
+}
+.title-shoplist {
+  display: flex;
+  font-size: 24px;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+}
+.navigation__item {
+  display: inline;
+  padding: 6px;
+}
